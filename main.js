@@ -32,7 +32,7 @@ primeNo.innerHTML=primenoArr
 }
 }
 
-
+// CAL FIBONACCI SERIES
 const fib=(n)=>{
     const fibArr=[1,1];
     for(let i=2;i<n;i++){
@@ -42,6 +42,7 @@ const fib=(n)=>{
     return fibArr;
 }
 
+// CAL PRIME NUMBER
 const primeCheck=(n)=>{
     
     
@@ -67,7 +68,8 @@ console.log(i);
    
     
 }
-
+// EVENT LISTENERS
 enter.addEventListener("click",call)
+
 
 
